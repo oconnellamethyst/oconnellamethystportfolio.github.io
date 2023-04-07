@@ -17,8 +17,16 @@
   <script src="static/js/head.min.js"></script>
 </head>
 <body>
+  <script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "Amethyst O'Connell",
+      "url" : "https://oconnellamethyst.com/"
+    }
+  </script>
   <script>
-    progressJs().setOptions({ overlayMode: true, theme: 'custom' }).start();
+        progressJs().setOptions({ overlayMode: true, theme: 'custom' }).start();
     if (window.attachEvent) {
       window.attachEvent('onload', function () { progressJs().end(); });
     } else {
